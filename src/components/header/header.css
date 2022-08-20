@@ -1,0 +1,29 @@
+.header {
+  padding: 36px 0px;
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  align-items: center;
+}
+
+.header-logo {
+  margin-left: 80px;
+}
+
+.header-tabs-container {
+  display: flex;
+  align-items: center;
+  margin-left: 24px;
+}
+
+.header-tab {
+  color: var(--shade-black-2);
+  cursor: pointer;
+  margin: 0px 24px;
+}
+
+.header-tab-active {
+  text-decoration: underline;
+  font-size: 18px;
+  font-weight: 700;
+}

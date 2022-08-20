@@ -1,0 +1,7 @@
+.overlay-image {
+  position: absolute;
+  right: 0;
+  height: 105vh;
+  transform: translateY(-2%);
+  z-index: 99;
+}

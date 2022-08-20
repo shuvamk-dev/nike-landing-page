@@ -1,0 +1,35 @@
+.footer {
+  background-color: var(--footer-bg);
+  display: flex;
+  justify-content: space-between;
+  padding: 36px 0px;
+  width: 100%;
+  align-items: center;
+}
+
+.footer-images-wrapper {
+  display: flex;
+  margin-left: 80px;
+}
+
+.footer-product-image {
+  margin-right: 32px;
+  border-radius: 16px;
+}
+
+.footer-play-icon {
+  margin-right: 80px;
+  color: var(--solid-brown);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.footer-play-label {
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-top: 12px;
+}
